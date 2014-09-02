@@ -45,6 +45,7 @@ class appDevDebugProjectContainer extends Container
             'assetic.cache' => 'getAssetic_CacheService',
             'assetic.controller' => 'getAssetic_ControllerService',
             'assetic.filter.cssrewrite' => 'getAssetic_Filter_CssrewriteService',
+            'assetic.filter.less' => 'getAssetic_Filter_LessService',
             'assetic.filter_manager' => 'getAssetic_FilterManagerService',
             'assetic.request_listener' => 'getAssetic_RequestListenerService',
             'assetic.value_supplier.default' => 'getAssetic_ValueSupplier_DefaultService',
@@ -392,6 +393,24 @@ class appDevDebugProjectContainer extends Container
     }
 
     /**
+     * Gets the 'assetic.filter.less' service.
+     *
+     * This service is shared.
+     * This method always returns the same instance of the service.
+     *
+     * @return Assetic\Filter\LessFilter A Assetic\Filter\LessFilter instance.
+     */
+    protected function getAssetic_Filter_LessService()
+    {
+        $this->services['assetic.filter.less'] = $instance = new \Assetic\Filter\LessFilter('/usr/bin/nodejs', array(0 => '/usr/local/lib/node_modules'));
+
+        $instance->setTimeout(NULL);
+        $instance->setCompress(NULL);
+
+        return $instance;
+    }
+
+    /**
      * Gets the 'assetic.filter_manager' service.
      *
      * This service is shared.
@@ -401,7 +420,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getAssetic_FilterManagerService()
     {
-        return $this->services['assetic.filter_manager'] = new \Symfony\Bundle\AsseticBundle\FilterManager($this, array('cssrewrite' => 'assetic.filter.cssrewrite'));
+        return $this->services['assetic.filter_manager'] = new \Symfony\Bundle\AsseticBundle\FilterManager($this, array('less' => 'assetic.filter.less', 'cssrewrite' => 'assetic.filter.cssrewrite'));
     }
 
     /**
@@ -3091,7 +3110,7 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getUriSignerService()
     {
-        return $this->services['uri_signer'] = new \Symfony\Component\HttpKernel\UriSigner('ThisTokenIsNotSoSecretChangeIt');
+        return $this->services['uri_signer'] = new \Symfony\Component\HttpKernel\UriSigner('8e85054afe5af1e276656957a98a6acc');
     }
 
     /**
@@ -3224,6 +3243,7 @@ class appDevDebugProjectContainer extends Container
     {
         $this->services['assetic.asset_factory'] = $instance = new \Symfony\Bundle\AsseticBundle\Factory\AssetFactory($this->get('kernel'), $this, $this->getParameterBag(), '/var/www/Symfony/app/../web', true);
 
+        $instance->addWorker(new \Assetic\Factory\Worker\EnsureFilterWorker('/\\.less$/', $this->get('assetic.filter.less')));
         $instance->addWorker(new \Symfony\Bundle\AsseticBundle\Factory\Worker\UseControllerWorker());
 
         return $instance;
@@ -3580,7 +3600,7 @@ class appDevDebugProjectContainer extends Container
             'mailer_user' => NULL,
             'mailer_password' => NULL,
             'locale' => 'en',
-            'secret' => 'ThisTokenIsNotSoSecretChangeIt',
+            'secret' => '8e85054afe5af1e276656957a98a6acc',
             'debug_toolbar' => true,
             'debug_redirects' => false,
             'use_assetic_controller' => true,
@@ -3638,7 +3658,7 @@ class appDevDebugProjectContainer extends Container
             'debug.container.dump' => '/var/www/Symfony/app/cache/dev/appDevDebugProjectContainer.xml',
             'debug.controller_resolver.class' => 'Symfony\\Component\\HttpKernel\\Controller\\TraceableControllerResolver',
             'debug.debug_handlers_listener.class' => 'Symfony\\Component\\HttpKernel\\EventListener\\DebugHandlersListener',
-            'kernel.secret' => 'ThisTokenIsNotSoSecretChangeIt',
+            'kernel.secret' => '8e85054afe5af1e276656957a98a6acc',
             'kernel.http_method_override' => true,
             'kernel.trusted_hosts' => array(
 
@@ -4003,6 +4023,13 @@ class appDevDebugProjectContainer extends Container
             'assetic.node.bin' => '/usr/bin/node',
             'assetic.ruby.bin' => '/usr/bin/ruby',
             'assetic.sass.bin' => '/usr/bin/sass',
+            'assetic.filter.less.class' => 'Assetic\\Filter\\LessFilter',
+            'assetic.filter.less.node' => '/usr/bin/nodejs',
+            'assetic.filter.less.node_paths' => array(
+                0 => '/usr/local/lib/node_modules',
+            ),
+            'assetic.filter.less.timeout' => NULL,
+            'assetic.filter.less.compress' => NULL,
             'assetic.filter.cssrewrite.class' => 'Assetic\\Filter\\CssRewriteFilter',
             'assetic.twig_extension.functions' => array(
 

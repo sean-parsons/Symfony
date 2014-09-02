@@ -33,14 +33,55 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
+    bundles:        [ SeanBacktestingBundle ]
     #java: /usr/bin/java
     filters:
+        less:
+            node: /usr/bin/nodejs
+            node_paths: [/usr/local/lib/node_modules]
+            apply_to: "\.less$"
         cssrewrite: ~
         #closure:
         #    jar: "%kernel.root_dir%/Resources/java/compiler.jar"
         #yui_css:
         #    jar: "%kernel.root_dir%/Resources/java/yuicompressor-2.4.7.jar"
+#        cssembed:
+#            jar: %kernel.root_dir%/Resources/java/cssembed-0.4.5.jar
+#            yui_js:
+#                jar: %kernel.root_dir%/Resources/java/yuicompressor.jar
+#            lessphp:
+#                file: %kernel.root_dir%/../vendor/leafo/lessphp/lessc.inc.php
+#                apply_to: "\.less$"
+    assets:
+        jquery_js:
+            inputs:
+#                - '%kernel.root_dir%/app/Resources/public/js/vendor/jquery.js'
+                - '%kernel.root_dir%/../vendor/jquery/jquery/jquery-1.11.1.js'
+            filters: [?yui_js]
+        bootstrap_js:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/dist/js/bootstrap.min.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/affix.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/alert.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/button.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/carousel.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/collapse.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/dropdown.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/modal.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/popover.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/scrollspy.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/tab.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/tooltip.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/transition.js'
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/js/transition.js'
+            filters: [?yui_js]
+        bootstrap_less:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/less/bootstrap.less'
+            filters: [less]
+        bootstrap_dist_css:
+            inputs:
+                - '%kernel.root_dir%/../vendor/twitter/bootstrap/dist/css/bootstrap.min.css'
 
 # Doctrine Configuration
 doctrine:

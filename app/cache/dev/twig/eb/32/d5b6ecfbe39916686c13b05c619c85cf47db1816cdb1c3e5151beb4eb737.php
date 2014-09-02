@@ -54,9 +54,11 @@ class __TwigTemplate_eb32d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4
         echo "\">Access the secured area</a> <a href=\"";
         echo $this->env->getExtension('routing')->getPath("_demo_login");
         echo "\">Go to the login page</a></li>
-        ";
-        // line 13
-        echo "    </ul>
+        <li><a href=\"";
+        // line 12
+        echo $this->env->getExtension('routing')->getPath("_demo_contact");
+        echo "\">Send a Message</a></li>
+    </ul>
 ";
     }
 
@@ -72,6 +74,6 @@ class __TwigTemplate_eb32d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4
 
     public function getDebugInfo()
     {
-        return array (  59 => 13,  53 => 11,  49 => 10,  45 => 8,  42 => 7,  36 => 5,  30 => 3,);
+        return array (  59 => 12,  53 => 11,  49 => 10,  45 => 8,  42 => 7,  36 => 5,  30 => 3,);
     }
 }

@@ -34,7 +34,7 @@
     <parameter key="mailer_user">null</parameter>
     <parameter key="mailer_password">null</parameter>
     <parameter key="locale">en</parameter>
-    <parameter key="secret">ThisTokenIsNotSoSecretChangeIt</parameter>
+    <parameter key="secret">8e85054afe5af1e276656957a98a6acc</parameter>
     <parameter key="debug_toolbar">true</parameter>
     <parameter key="debug_redirects">false</parameter>
     <parameter key="use_assetic_controller">true</parameter>
@@ -92,7 +92,7 @@
     <parameter key="debug.container.dump">/var/www/Symfony/app/cache/dev/appDevDebugProjectContainer.xml</parameter>
     <parameter key="debug.controller_resolver.class">Symfony\Component\HttpKernel\Controller\TraceableControllerResolver</parameter>
     <parameter key="debug.debug_handlers_listener.class">Symfony\Component\HttpKernel\EventListener\DebugHandlersListener</parameter>
-    <parameter key="kernel.secret">ThisTokenIsNotSoSecretChangeIt</parameter>
+    <parameter key="kernel.secret">8e85054afe5af1e276656957a98a6acc</parameter>
     <parameter key="kernel.http_method_override">true</parameter>
     <parameter key="kernel.trusted_hosts" type="collection"/>
     <parameter key="kernel.trusted_proxies" type="collection"/>
@@ -443,6 +443,13 @@
     <parameter key="assetic.node.bin">/usr/bin/node</parameter>
     <parameter key="assetic.ruby.bin">/usr/bin/ruby</parameter>
     <parameter key="assetic.sass.bin">/usr/bin/sass</parameter>
+    <parameter key="assetic.filter.less.class">Assetic\Filter\LessFilter</parameter>
+    <parameter key="assetic.filter.less.node">/usr/bin/nodejs</parameter>
+    <parameter key="assetic.filter.less.node_paths" type="collection">
+      <parameter>/usr/local/lib/node_modules</parameter>
+    </parameter>
+    <parameter key="assetic.filter.less.timeout">null</parameter>
+    <parameter key="assetic.filter.less.compress">null</parameter>
     <parameter key="assetic.filter.cssrewrite.class">Assetic\Filter\CssRewriteFilter</parameter>
     <parameter key="assetic.twig_extension.functions" type="collection"/>
     <parameter key="assetic.controller.class">Symfony\Bundle\AsseticBundle\Controller\AsseticController</parameter>
@@ -662,7 +669,7 @@
       <argument>/var/www/Symfony/app/Resources</argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
-      <argument>ThisTokenIsNotSoSecretChangeIt</argument>
+      <argument>8e85054afe5af1e276656957a98a6acc</argument>
     </service>
     <service id="fragment.handler" class="Symfony\Component\HttpKernel\Fragment\FragmentHandler">
       <argument type="collection"/>
@@ -2203,6 +2210,7 @@
     <service id="assetic.filter_manager" class="Symfony\Bundle\AsseticBundle\FilterManager">
       <argument type="service" id="service_container"/>
       <argument type="collection">
+        <argument key="less">assetic.filter.less</argument>
         <argument key="cssrewrite">assetic.filter.cssrewrite</argument>
       </argument>
     </service>
@@ -2252,6 +2260,15 @@
       <argument>true</argument>
       <call method="addWorker">
         <argument type="service">
+          <service class="Assetic\Factory\Worker\EnsureFilterWorker" public="false">
+            <tag name="assetic.factory_worker"/>
+            <argument>/\.less$/</argument>
+            <argument type="service" id="assetic.filter.less"/>
+          </service>
+        </argument>
+      </call>
+      <call method="addWorker">
+        <argument type="service">
           <service class="Symfony\Bundle\AsseticBundle\Factory\Worker\UseControllerWorker" public="false">
             <tag name="assetic.factory_worker"/>
           </service>
@@ -2260,6 +2277,19 @@
     </service>
     <service id="assetic.value_supplier.default" class="Symfony\Bundle\AsseticBundle\DefaultValueSupplier" public="false">
       <argument type="service" id="service_container"/>
+    </service>
+    <service id="assetic.filter.less" class="Assetic\Filter\LessFilter">
+      <tag name="assetic.filter" alias="less"/>
+      <argument>/usr/bin/nodejs</argument>
+      <argument type="collection">
+        <argument>/usr/local/lib/node_modules</argument>
+      </argument>
+      <call method="setTimeout">
+        <argument>null</argument>
+      </call>
+      <call method="setCompress">
+        <argument>null</argument>
+      </call>
     </service>
     <service id="assetic.filter.cssrewrite" class="Assetic\Filter\CssRewriteFilter">
       <tag name="assetic.filter" alias="cssrewrite"/>

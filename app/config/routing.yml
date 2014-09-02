@@ -1,0 +1,4 @@
+sean_backtesting:
+    resource: "@SeanBacktestingBundle/Resources/config/routing.yml"
+    prefix:   /
+

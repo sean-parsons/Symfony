@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de58fb21-d941-44ac-902d-f9c93937b001" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+    <list default="true" id="de58fb21-d941-44ac-902d-f9c93937b001" name="Default" comment="Added Composer Less jQuery Bootstrap Symlinks Bundle">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/js/docs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ba/97/14cc641037fa2637955323f18111b5555c15517f5b6429182e54ac87bcf6.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ba/97/14cc641037fa2637955323f18111b5555c15517f5b6429182e54ac87bcf6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/bc/85/6f1c7f39048239898b9fa3a42a77fc6fae904aed6cb4b2cd4d9253aa0b3e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/bc/85/6f1c7f39048239898b9fa3a42a77fc6fae904aed6cb4b2cd4d9253aa0b3e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/47/28/73cc170550f466c0617dba8afb19ff5663bc9bcbf79055565b0f341b1460.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/47/28/73cc170550f466c0617dba8afb19ff5663bc9bcbf79055565b0f341b1460.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/bf/10/94f6b58498f53dc12cebe446aaa95cc05e3540a5e7ba61113a932c628b6e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/bf/10/94f6b58498f53dc12cebe446aaa95cc05e3540a5e7ba61113a932c628b6e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Symfony.iml" afterPath="$PROJECT_DIR$/.idea/Symfony.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/eb/32/d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4eb737.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/eb/32/d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4eb737.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/12/4d/f3eb4017ac6aa8d6576ebf95f6723f8a57b8fe135b51d1cc9dd5c03e8614.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/12/4d/f3eb4017ac6aa8d6576ebf95f6723f8a57b8fe135b51d1cc9dd5c03e8614.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" afterPath="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +52,233 @@
     <favorites_list name="Symfony" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="30" selection-start="3107" selection-end="3107" vertical-scroll-proportion="-19.23077" vertical-offset="1020" max-vertical-offset="2320">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docs.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/js/docs.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="2159" selection-start="31683" selection-end="31683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1001" selection-end="1015" vertical-scroll-proportion="-25.714285" vertical-offset="0" max-vertical-offset="860">
+              <folding>
+                <marker date="1409606115000" expanded="true" signature="382:445" placeholder="..." />
+                <marker date="1409606115000" expanded="true" signature="517:671" placeholder="..." />
+                <marker date="1409606115000" expanded="false" signature="694:705" placeholder="..." />
+                <marker date="1409606115000" expanded="true" signature="756:809" placeholder="..." />
+                <marker date="1409606115000" expanded="true" signature="906:983" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="12" selection-start="591" selection-end="591" vertical-scroll-proportion="-6.535714" vertical-offset="197" max-vertical-offset="1880">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4eb737.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/eb/32/d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4eb737.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="34" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.2046285" vertical-offset="652" max-vertical-offset="1700">
+              <folding>
+                <marker date="1409202978000" expanded="true" signature="1287:1310" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="73cc170550f466c0617dba8afb19ff5663bc9bcbf79055565b0f341b1460.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/47/28/73cc170550f466c0617dba8afb19ff5663bc9bcbf79055565b0f341b1460.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="47" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-6.607143" vertical-offset="435" max-vertical-offset="4700">
+              <folding>
+                <marker date="1409202671000" expanded="true" signature="1119:2655" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="3218:3336" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="3531:3629" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="3544:3620" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="4028:4055" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="5218:5336" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="5235:5323" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="6003:6034" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="7339:7404" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="7416:7629" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14cc641037fa2637955323f18111b5555c15517f5b6429182e54ac87bcf6.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/ba/97/14cc641037fa2637955323f18111b5555c15517f5b6429182e54ac87bcf6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="176" selection-start="8584" selection-end="8584" vertical-scroll-proportion="-6.607143" vertical-offset="1795" max-vertical-offset="22280">
+              <folding>
+                <marker date="1409202671000" expanded="true" signature="3433:7440" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="8268:13296" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="8282:8357" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="8375:8809" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="8856:8905" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="8929:9263" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9274:9372" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9395:9472" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9486:9553" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9576:9854" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9867:9905" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="9931:10188" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10212:10449" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10479:10665" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10694:10729" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10761:10796" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10831:10866" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10904:10939" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="10968:11004" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="11066:11153" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="11279:11697" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="11841:12187" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12206:12341" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12363:12398" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12430:12621" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12637:12668" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12681:12711" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12729:12943" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="12959:12987" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="13015:13050" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="13066:13120" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="13146:13185" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="13219:13284" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="13601:13704" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="13634:13704" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="13687:13704" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="16409:22777" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="16441:20201" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="16583:16654" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="16700:16760" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="16802:17347" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="16960:17058" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="17101:17333" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="17391:17929" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="17549:17647" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="17689:17915" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="17971:18158" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18026:18081" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18087:18144" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18206:19961" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18284:18545" placeholder="//..." />
+                <marker date="1409202671000" expanded="true" signature="18628:18680" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18746:19947" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="18920:19026" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19148:19232" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19379:19569" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19630:19929" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19749:19826" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19832:19907" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="19979:20194" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20237:20795" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20282:20357" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20411:20699" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20498:20647" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20524:20596" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20606:20629" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20717:20788" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20820:22520" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="20948:21606" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21100:21195" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21228:21306" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21342:21420" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21648:22424" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21711:22315" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="21879:21982" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="22051:22241" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="22354:22410" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="22442:22513" placeholder="{...}" />
+                <marker date="1409202671000" expanded="true" signature="23172:23228" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="28007:28020" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="29430:29515" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="29447:29515" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="30189:30319" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="30762:30787" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="31074:31099" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="32542:32567" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="35818:35882" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="36551:36678" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="36572:36593" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="36653:36678" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="37599:37620" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="38006:38027" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="38072:38097" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="39335:39399" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="40371:40497" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="40392:40413" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="40472:40497" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="41468:41489" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="41889:41910" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="41956:41981" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="43503:43567" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="44520:44716" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="44541:44699" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="45176:45197" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="45749:45774" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="48021:48085" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="48783:48928" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="48804:48911" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="49366:49387" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="50603:50667" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="51349:51496" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="51370:51479" placeholder="..." />
+                <marker date="1409202671000" expanded="true" signature="51929:51950" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appDevDebugProjectContainer.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="212" column="4" selection-start="21525" selection-end="21525" vertical-scroll-proportion="0.0" vertical-offset="4063" max-vertical-offset="58360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_dev.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-10.678572" vertical-offset="121" max-vertical-offset="700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="21" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-6.0" vertical-offset="1052" max-vertical-offset="4480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -37,16 +291,34 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/config.php" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/js/docs.min.js" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/signin.css" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/docs.min.css" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/web/config.php" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/css/bootstrap-theme.min.css" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/js/dashboard.css" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/js/docs.min.js" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/views/Default/index.html.twig" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1018" />
-    <option name="height" value="1178" />
+    <option name="width" value="1232" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -116,7 +388,407 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BacktestingBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Symfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,30 +867,53 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1018" height="1178" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1232" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912534" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950884" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950884" sideWeight="0.50045085" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24950884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20616883" sideWeight="0.49954915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950884" sideWeight="0.50045085" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912534" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24950884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24950884" sideWeight="0.49954915" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -233,22 +928,406 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="Added Composer Less jQuery Bootstrap Symlinks Bundle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Composer Less jQuery Bootstrap Symlinks Bundle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/SensioFrameworkExtraBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="599" selection-end="599" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="1040">
+        <state line="13" column="41" selection-start="393" selection-end="396" vertical-scroll-proportion="0.21153846" vertical-offset="0" max-vertical-offset="1040">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="-9.285714" vertical-offset="0" max-vertical-offset="380">
+          <folding>
+            <marker date="1409184335000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409184335000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409184335000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="808" selection-end="808" vertical-scroll-proportion="0.53846157" vertical-offset="0" max-vertical-offset="2600">
+        <state line="23" column="6" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5168539" vertical-offset="0" max-vertical-offset="2600">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/public/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="279" selection-end="279" vertical-scroll-proportion="0.23965141" vertical-offset="0" max-vertical-offset="2140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding>
+            <marker date="1409184478000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/hello.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="130" selection-end="130" vertical-scroll-proportion="0.11074197" vertical-offset="0" max-vertical-offset="903">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="446" selection-end="446" vertical-scroll-proportion="0.37988827" vertical-offset="0" max-vertical-offset="895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.3651987" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="phar://$PROJECT_DIR$/composer.phar/.phar/stub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="32" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.5529954" vertical-offset="0" max-vertical-offset="32200">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.13490725" vertical-offset="0" max-vertical-offset="593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.5072464" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/AcmeDemoBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/SeanBacktestingBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="9" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.8695652" vertical-offset="0" max-vertical-offset="820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Welcome/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="62" selection-start="3300" selection-end="3300" vertical-scroll-proportion="-7.72" vertical-offset="1767" max-vertical-offset="3520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="92" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/WebTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="31" selection-start="1123" selection-end="1123" vertical-scroll-proportion="-6.892857" vertical-offset="367" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/WebTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="31" selection-start="1122" selection-end="1122" vertical-scroll-proportion="-6.892857" vertical-offset="367" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="469" selection-end="469" vertical-scroll-proportion="-7.107143" vertical-offset="101" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-10.678572" vertical-offset="121" max-vertical-offset="700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Symfony Before Revert/src/Acme/DemoBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="65290" vertical-scroll-proportion="-0.48442906" vertical-offset="420" max-vertical-offset="19120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1001" selection-end="1015" vertical-scroll-proportion="-25.714285" vertical-offset="0" max-vertical-offset="860">
+          <folding>
+            <marker date="1409606115000" expanded="true" signature="382:445" placeholder="..." />
+            <marker date="1409606115000" expanded="true" signature="517:671" placeholder="..." />
+            <marker date="1409606115000" expanded="false" signature="694:705" placeholder="..." />
+            <marker date="1409606115000" expanded="true" signature="756:809" placeholder="..." />
+            <marker date="1409606115000" expanded="true" signature="906:983" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/js/docs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="2159" selection-start="31683" selection-end="31683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/public/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="1" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.9698324" vertical-offset="1212" max-vertical-offset="2200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="30" selection-start="3107" selection-end="3107" vertical-scroll-proportion="-19.23077" vertical-offset="1020" max-vertical-offset="2320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="591" selection-end="591" vertical-scroll-proportion="-6.535714" vertical-offset="197" max-vertical-offset="1880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/47/28/73cc170550f466c0617dba8afb19ff5663bc9bcbf79055565b0f341b1460.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="47" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-6.607143" vertical-offset="435" max-vertical-offset="4700">
+          <folding>
+            <marker date="1409202671000" expanded="true" signature="1119:2655" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="3218:3336" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="3531:3629" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="3544:3620" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="4028:4055" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="5218:5336" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="5235:5323" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="6003:6034" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="7339:7404" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="7416:7629" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/ba/97/14cc641037fa2637955323f18111b5555c15517f5b6429182e54ac87bcf6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="176" selection-start="8584" selection-end="8584" vertical-scroll-proportion="-6.607143" vertical-offset="1795" max-vertical-offset="22280">
+          <folding>
+            <marker date="1409202671000" expanded="true" signature="3433:7440" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="8268:13296" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="8282:8357" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="8375:8809" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="8856:8905" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="8929:9263" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9274:9372" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9395:9472" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9486:9553" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9576:9854" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9867:9905" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="9931:10188" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10212:10449" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10479:10665" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10694:10729" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10761:10796" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10831:10866" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10904:10939" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="10968:11004" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="11066:11153" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="11279:11697" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="11841:12187" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12206:12341" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12363:12398" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12430:12621" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12637:12668" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12681:12711" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12729:12943" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="12959:12987" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="13015:13050" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="13066:13120" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="13146:13185" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="13219:13284" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="13601:13704" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="13634:13704" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="13687:13704" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="16409:22777" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="16441:20201" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="16583:16654" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="16700:16760" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="16802:17347" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="16960:17058" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="17101:17333" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="17391:17929" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="17549:17647" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="17689:17915" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="17971:18158" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18026:18081" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18087:18144" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18206:19961" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18284:18545" placeholder="//..." />
+            <marker date="1409202671000" expanded="true" signature="18628:18680" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18746:19947" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="18920:19026" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19148:19232" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19379:19569" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19630:19929" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19749:19826" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19832:19907" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="19979:20194" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20237:20795" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20282:20357" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20411:20699" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20498:20647" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20524:20596" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20606:20629" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20717:20788" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20820:22520" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="20948:21606" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21100:21195" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21228:21306" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21342:21420" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21648:22424" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21711:22315" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="21879:21982" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="22051:22241" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="22354:22410" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="22442:22513" placeholder="{...}" />
+            <marker date="1409202671000" expanded="true" signature="23172:23228" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="28007:28020" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="29430:29515" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="29447:29515" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="30189:30319" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="30762:30787" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="31074:31099" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="32542:32567" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="35818:35882" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="36551:36678" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="36572:36593" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="36653:36678" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="37599:37620" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="38006:38027" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="38072:38097" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="39335:39399" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="40371:40497" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="40392:40413" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="40472:40497" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="41468:41489" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="41889:41910" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="41956:41981" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="43503:43567" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="44520:44716" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="44541:44699" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="45176:45197" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="45749:45774" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="48021:48085" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="48783:48928" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="48804:48911" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="49366:49387" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="50603:50667" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="51349:51496" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="51370:51479" placeholder="..." />
+            <marker date="1409202671000" expanded="true" signature="51929:51950" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="4" selection-start="21525" selection-end="21525" vertical-scroll-proportion="0.0" vertical-offset="4063" max-vertical-offset="58360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sean/BacktestingBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="21" selection-start="2450" selection-end="2450" vertical-scroll-proportion="-6.0" vertical-offset="1052" max-vertical-offset="4480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/twig/eb/32/d5b6ecfbe39916686c13b05c619c85cf47db1816cdb1c3e5151beb4eb737.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.2046285" vertical-offset="652" max-vertical-offset="1700">
+          <folding>
+            <marker date="1409202978000" expanded="true" signature="1287:1310" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

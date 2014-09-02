@@ -1615,5 +1615,18 @@
             }
         ],
         "description": "This bundle generates code for you"
+    },
+    {
+        "name": "jquery/jquery",
+        "version": "1.11.1",
+        "version_normalized": "1.11.1.0",
+        "dist": {
+            "type": "file",
+            "url": "http://code.jquery.com/jquery-1.11.1.js",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
     }
 ]
